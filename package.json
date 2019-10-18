@@ -1,0 +1,17 @@
+{
+  "name": "build-echarts",
+  "version": "1.0.0",
+  "description": "build echarts as needed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "echarts"
+  ],
+  "author": "xuweijian",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^4.3.0"
+  }
+}
