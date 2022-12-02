@@ -4,7 +4,8 @@
   "description": "build echarts as needed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-echarts": "node node_modules/echarts/build/build.js -i echarts.custom.js -o lib/echarts.custom.min.js"
   },
   "keywords": [
     "echarts"
